@@ -17,7 +17,7 @@ Public and enterprise procurement processes involve hundreds of pages of RFP (Re
 
 The system operates in two modes:
 - **⚡ Fast Screening** — Extracts the 30–50 most critical requirements and scores all vendors in seconds, enabling rapid elimination of weak candidates.
-- **🔬 Deep Analysis** — Performs full extraction of 800+ requirements, runs parallel RAG auditing against every vendor proposal, detects hidden risk clauses, and generates C-suite-ready analysis.
+- **🔬 Deep Analysis** — Performs full extraction of all requirements — often several hundred — runs parallel RAG auditing against every vendor proposal, detects hidden risk clauses, and generates executive-level analysis.
 
 ---
 
