@@ -1,5 +1,50 @@
+# Sensitive / Environment
 .env
+.env.*
+
+# Application Cache
+.tcos_cache/
+.cache/
+
+# Vector Database & Embeddings
+chroma_db/
+*.pkl
+*.bin
+*.db
+
+# PDF Documents
+*.pdf
+vendor_docs/
+rfp_docs/
+
+# Python
 __pycache__/
-*.pyc
-store_*/
-active_tender.pdf
+*.py[cod]
+*.pyo
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Distribution / Build
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tmp
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
