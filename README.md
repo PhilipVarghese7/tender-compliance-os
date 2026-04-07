@@ -21,6 +21,12 @@ The system operates in two modes:
 
 ---
 
+## Demo Video
+
+Watch the full demo here: [Loom Video](https://www.loom.com/share/2995b7b721ab48f3a8d4533a6d22521c)
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
