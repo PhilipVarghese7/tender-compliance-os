@@ -1,12 +1,11 @@
 import os, json, hashlib, re, base64, time
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
+import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY") or os.getenv("OPENAI_API_KEY", "")
 
-import streamlit as st
 import pandas as pd
 import fitz
 import plotly.graph_objects as go
